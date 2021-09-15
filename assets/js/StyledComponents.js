@@ -71,7 +71,7 @@ export const ProjectTitle = styled.h3`
   padding: .5rem .8rem 0 .8rem;
   font-size: 2rem;
   z-index: 0;
-  background: #2f3233;
+  background: #090b0c;
 `
 
 export const ProjectDescription = styled.p`
