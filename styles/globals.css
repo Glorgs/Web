@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+html, body {
+  overflow-x: hidden;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Space Grotesk, sans-serif !important;
+  color: white;
+  background: rgb(47 50 51);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.highlight:hover {
+  color: #f2ca00;
+}
+
+.highlight-bg {
+  transition: background-color 300ms ease;
+}
+
+.highlight-bg:hover {
+  background-color: #f2ca00;
+}
+
+.shadow-light {
+  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  transition: 150ms ease;
+}
+
+.shadow-light:hover {
+  box-shadow: 3px 3px 20px rgba(104, 101, 101, 0.5);
+}
+
+.technologies {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  justify-content: center;
+  justify-items: center;
+}
