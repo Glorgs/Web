@@ -21,15 +21,9 @@ export default function Introduction() {
                     {
                         translate([
                             `Welcome to my Portfolio. You can find the main projects and technologies I worked on. Enjoy your visit!`,
-                            `Bienvenu dans mon Portfolio. Vous pourrez y trouver les principaux projets et les technologies sur lesquels j'ai travaillé. Bonne visite !`
+                            `Bienvenue dans mon Portfolio. Vous pourrez y trouver les principaux projets et les technologies sur lesquels j'ai travaillé. Bonne visite !`
                         ])
                     }
-                </div>
-
-                <div className="mt-8">
-                    <button onClick={() => window.open('/cv_jonathan_baudillon.pdf')} className="bg-gradient-to-r from-blue-900 to-blue-400 px-14 py-3 rounded-full hover:scale-105 active:scale-90 transition transform duration-150">
-                        <span className="text-xl font-bold tracking-wider">{translate('Download my Resume|Télécharger mon CV')}</span>
-                    </button>
                 </div>
             </div>
 

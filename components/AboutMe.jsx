@@ -12,10 +12,16 @@ export default function AboutMe() {
             <div className="mt-5 opacity-50 text-lg leading-8 font-light tracking-wider">
                 {
                     translate([
-                        `${age} years old computer engineer and full stack web developer using the latest technologies. I learn and adapt quickly. I emphasize the rigor and the quality brought to my productions. I like teamwork above all because learning is a collective game.`,
+                        `${age} years old computer engineer and developer. I like to discover new technologies and find solutions to problems. Teamwork is very important to me because it allows me to obtain high quality results.`,
                         `Ingénieur en informatique de ${age} ans et développeur. J'aime découvrir de nouvelles technologies et trouver des solutions aux problèmes rencontrés. Le travail d'équipe est primordial pour moi car il permet d'obtenir des résultats d'une grande qualité.`
                     ])
                 }
+            </div>
+
+            <div className="mt-8">
+                    <button onClick={() => window.open('/cv_jonathan_baudillon.pdf')} className="bg-gradient-to-r from-blue-900 to-blue-400 px-14 py-3 rounded-full hover:scale-105 active:scale-90 transition transform duration-150">
+                        <span className="text-xl font-bold tracking-wider">{translate('Download my Resume|Télécharger mon CV')}</span>
+                    </button>
             </div>
 
             <div className="mt-10">
