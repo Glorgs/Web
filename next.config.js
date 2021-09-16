@@ -7,6 +7,6 @@ const isProd = process.env.NODE_ENV === 'production'
 const debug = process.env.NODE_ENV !== "production";
 
 module.exports = {
-  basePath: '/',
-  assetPrefix: '/'
+  basePath: '',
+  assetPrefix: ''
 }
