@@ -95,7 +95,7 @@ const projects = [
             `Implementation of an application for learning the C language. Creation of exercises, correction, sending of code and live compilation. Creation of a dashboard for management.`,
             `Mise en place d'une application pour l'apprentissage du langage C. Création d'exercices, correction, envoi de code et compilation en direct. Création d'un tableau de bord pour la gestion.`
         ]),
-        image: './Cez.PNG',
+        image: './image.png',
         tags: ['PHP', 'HTML', 'Javascript', 'MySQL'],
         links: [
         ],
