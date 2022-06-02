@@ -179,7 +179,6 @@ export default function Projects() {
             <div className="mt-14">
                 <GridContainer width={320} noPadding>
                     {projects.map((project, index) => (
-                        <a>
                         <ProjectCard key={index}>
                             <img src= {project.image} alt={project.title} style={{objectFit: 'cover', width: '100%', height: 200, zIndex: 0}} />
                             <ProjectTitle>{project.title}</ProjectTitle>
@@ -208,7 +207,7 @@ export default function Projects() {
                                     <div className="opacity-70 font-light" key={index}>{tag}</div>
                                 ))}
                             </div>
-                        </ProjectCard></a>
+                        </ProjectCard>
                     ))}
                 </GridContainer>
             </div>
