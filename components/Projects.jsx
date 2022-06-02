@@ -11,7 +11,7 @@ import {BiGlobe} from "react-icons/bi";
 import {IoLogoGooglePlaystore} from "react-icons/io5";
 import {IoIosAppstore} from "react-icons/io";
 import {FaItchIo} from "react-icons/fa";
-import {IoLogoYoutube} from "react-icons/io";
+import {IoLogoYoutube} from "react-icons/io5";
 
 const projects = [
     {
