@@ -25,7 +25,8 @@ const projects = [
                 url: 'https://glorgs.itch.io/bridge-colossus'
             }
         ],
-        type: translate(['school','École'])
+        type: translate(['school','École']),
+        url: 'https://glorgs.itch.io/bridge-colossus'
     },
     {
         title: 'Unity 3D : Neon Pipe',
@@ -180,7 +181,7 @@ export default function Projects() {
                 <GridContainer width={320} noPadding>
                     {projects.map((project, index) => (
                         <ProjectCard key={index}>
-                            <a href = {project.links.url}>
+                            <a href = {project.url}>
                             <img src= {project.image} alt={project.title} style={{objectFit: 'cover', width: '100%', height: 200, zIndex: 0}} />
                             <ProjectTitle>{project.title}</ProjectTitle>
 
