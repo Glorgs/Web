@@ -10,7 +10,7 @@ import {AiFillQuestionCircle, AiFillGithub} from "react-icons/ai";
 import {BiGlobe} from "react-icons/bi";
 import {IoLogoGooglePlaystore} from "react-icons/io5";
 import {IoIosAppstore} from "react-icons/io";
-import {ItchLogo} from "react-icons/FaItchIo";
+import {ItchLogo} from "react-icons/fa";
 
 const projects = [
     {
