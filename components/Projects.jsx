@@ -10,7 +10,7 @@ import {AiFillQuestionCircle, AiFillGithub} from "react-icons/ai";
 import {BiGlobe} from "react-icons/bi";
 import {IoLogoGooglePlaystore} from "react-icons/io5";
 import {IoIosAppstore} from "react-icons/io";
-import {ItchLogo} from "react-icons/fa";
+import {FaItchIo} from "react-icons/fa";
 
 const projects = [
     {
@@ -140,7 +140,7 @@ const iconOf = name => {
     else if (name === 'github')
         return AiFillGithub;
     else if(name === 'itch')
-        return ItchLogo;
+        return FaItchIo;
     else
         return AiFillQuestionCircle;
 }
