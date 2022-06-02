@@ -10,6 +10,7 @@ import {AiFillQuestionCircle, AiFillGithub} from "react-icons/ai";
 import {BiGlobe} from "react-icons/bi";
 import {IoLogoGooglePlaystore} from "react-icons/io5";
 import {IoIosAppstore} from "react-icons/io";
+import {ItchLogo} from "react-icons/FaItchIo";
 
 const projects = [
     {
@@ -22,7 +23,7 @@ const projects = [
         tags: ['C#', 'Unity', 'Decal', 'Project Management'],
         links: [
             {
-                name: 'Itch',
+                name: 'itch',
                 url: 'https://glorgs.itch.io/neon-pipe'
             }
         ],
@@ -128,6 +129,8 @@ const iconOf = name => {
         return IoIosAppstore;
     else if (name === 'github')
         return AiFillGithub;
+    else if(name === 'itch')
+        return ItchLogo;
     else
         return AiFillQuestionCircle;
 }
