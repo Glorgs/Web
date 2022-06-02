@@ -146,7 +146,7 @@ const iconOf = name => {
         return AiFillGithub;
     else if(name === 'itch')
         return FaItchIo;
-    else if(nam === 'youtube')
+    else if(name === 'youtube')
         return IoLogoYoutube;
     else
         return AiFillQuestionCircle;
