@@ -15,7 +15,7 @@ import {ItchLogo} from "react-icons/FaItchIo";
 const projects = [
     {
         title: translate('Unity 2D : Bridge Colossus'),
-        description: 'Un run n gun à 360° pour 2 joueurs réalisé pendant une game jam de 2,5 jours aux Gobelins, inspiré par Jet Set Radio et Splatoon.',
+        description: 'Bridge Colossus est un jeu narratif avec des choix. Choisissez vos alliés pour décider du sort de la ville basse. Il a été réalisé pour une game jam de 3 jours à Gobelins.',
         image: './Bridge.png',
         tags: ['C#', 'Unity 2D', 'Inkle', 'Project Management'],
         links: [
