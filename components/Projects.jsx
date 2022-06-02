@@ -14,13 +14,23 @@ import {ItchLogo} from "react-icons/FaItchIo";
 
 const projects = [
     {
-        title: translate(''),
-        description: translate([
-            `Porting of the PC games Wolflame, Zangeki Warp and SteelStrider on the Dreamcast console. Work done in total autonomy within the Rush On Games company in collaboration with the PixelHeart studio.`,
-            `Portage des jeux PC Wolflame, Zangeki Warp et SteelStrider sur la console Dreamcast. Travail effectué en total autonomie au sein de l'entreprise Rush On Games en collaboration avec le studio PixelHeart.`
-        ]),
+        title: translate('Unity 2D : Bridge Colossus'),
+        description: 'Un run n gun à 360° pour 2 joueurs réalisé pendant une game jam de 2,5 jours aux Gobelins, inspiré par Jet Set Radio et Splatoon.',
+        image: './Bridge.png',
+        tags: ['C#', 'Unity 2D', 'Inkle', 'Project Management'],
+        links: [
+            {
+                name: 'itch',
+                url: 'https://glorgs.itch.io/bridge-colossus'
+            }
+        ],
+        type: translate(['school','École'])
+    },
+    {
+        title: 'Unity 3D : Neon Pipe',
+        description: 'Un run n gun à 360° pour 2 joueurs réalisé pendant une game jam de 2,5 jours aux Gobelins, inspiré par Jet Set Radio et Splatoon.',
         image: './NeonPipe.png',
-        tags: ['C#', 'Unity', 'Decal', 'Project Management'],
+        tags: ['C#', 'Unity 3D', 'Decal', 'Project Management'],
         links: [
             {
                 name: 'itch',
