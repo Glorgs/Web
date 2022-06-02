@@ -11,6 +11,7 @@ import {BiGlobe} from "react-icons/bi";
 import {IoLogoGooglePlaystore} from "react-icons/io5";
 import {IoIosAppstore} from "react-icons/io";
 import {FaItchIo} from "react-icons/fa";
+import {IoLogoYoutube} from "react-icons/io"
 
 const projects = [
     {
@@ -75,8 +76,12 @@ const projects = [
         title: '2D Zelda-like Game',
         description: `Création d'un jeu RPG 2D sur Unity. Gestion `,
         image: './game.png',
-        tags: ['Unity', 'C#', 'Tiled'],
+        tags: ['Unity 2D', 'C#', 'Tiled'],
         links: [
+            {
+                name: 'youtube',
+                url: ''
+            }
         ],
         type: 'pro'
     },
@@ -141,6 +146,8 @@ const iconOf = name => {
         return AiFillGithub;
     else if(name === 'itch')
         return FaItchIo;
+    else if(nam === 'youtube')
+        return IoLogoYoutube;
     else
         return AiFillQuestionCircle;
 }
