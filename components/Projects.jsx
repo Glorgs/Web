@@ -11,7 +11,7 @@ import {BiGlobe} from "react-icons/bi";
 import {IoLogoGooglePlaystore} from "react-icons/io5";
 import {IoIosAppstore} from "react-icons/io";
 import {FaItchIo} from "react-icons/fa";
-import {IoLogoYoutube} from "react-icons/io"
+import {IoLogoYoutube} from "react-icons/io";
 
 const projects = [
     {
@@ -179,6 +179,7 @@ export default function Projects() {
             <div className="mt-14">
                 <GridContainer width={320} noPadding>
                     {projects.map((project, index) => (
+                        <a>
                         <ProjectCard key={index}>
                             <img src= {project.image} alt={project.title} style={{objectFit: 'cover', width: '100%', height: 200, zIndex: 0}} />
                             <ProjectTitle>{project.title}</ProjectTitle>
@@ -207,7 +208,7 @@ export default function Projects() {
                                     <div className="opacity-70 font-light" key={index}>{tag}</div>
                                 ))}
                             </div>
-                        </ProjectCard>
+                        </ProjectCard></a>
                     ))}
                 </GridContainer>
             </div>
