@@ -55,7 +55,7 @@ export const ProjectCard = styled.div`
       }
 
       h3{
-        color: red;
+        text-decoration: underline;   
       }
     }
   }
