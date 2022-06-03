@@ -53,6 +53,10 @@ export const ProjectCard = styled.div`
       img {
         transform: scale(1.03);
       }
+
+      h3{
+        color: red;
+      }
     }
   }
 

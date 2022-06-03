@@ -195,7 +195,7 @@ export default function Projects() {
                         <a href={project.links[0]} key={index}>
                         <ProjectCard>
                             <img src= {project.image} alt={project.title} style={{objectFit: 'cover', width: '100%', height: 200, zIndex: 0}} />
-                            <ProjectTitle class="hey">{project.title}</ProjectTitle>
+                            <ProjectTitle>{project.title}</ProjectTitle>
 
                             <Hr />
                             
