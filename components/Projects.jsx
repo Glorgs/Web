@@ -192,13 +192,14 @@ export default function Projects() {
             <div className="mt-14">
                 <GridContainer width={320} noPadding>
                     {projects.map((project, index) => (
+                        <a>
                         <ProjectCard key={index}>
                             <img src= {project.image} alt={project.title} style={{objectFit: 'cover', width: '100%', height: 200, zIndex: 0}} />
                             <ProjectTitle>{project.title}</ProjectTitle>
 
                             <Hr />
                             
-                            <a>
+                            
                             <div className="flex items-center mb-1" style={{paddingLeft: '1.5rem', paddingRight: '1.5rem'}}>
                                 <div className="rounded-full bg-gray-200 text-black font-bold tracking-wider uppercase px-2 py-1">{project.type}</div>
 
@@ -221,8 +222,9 @@ export default function Projects() {
                                     <div className="opacity-70 font-light" key={index}>{tag}</div>
                                 ))}
                             </div>
-                            </a>
+                            
                         </ProjectCard>
+                        </a>
                     ))}
                 </GridContainer>
             </div>
