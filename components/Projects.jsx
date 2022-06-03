@@ -193,9 +193,9 @@ export default function Projects() {
                 <GridContainer width={320} noPadding>
                     {projects.map((project, index) => (
                         <a href={project.links[0]} key={index}>
-                        <ProjectCard class="hey">
+                        <ProjectCard>
                             <img src= {project.image} alt={project.title} style={{objectFit: 'cover', width: '100%', height: 200, zIndex: 0}} />
-                            <ProjectTitle>{project.title}</ProjectTitle>
+                            <ProjectTitle class="hey">{project.title}</ProjectTitle>
 
                             <Hr />
                             
