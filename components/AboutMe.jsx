@@ -44,6 +44,12 @@ export default function AboutMe() {
                             Diplôme d’Ingénieur en Informatique spécialisé en Réalité Virtuelle et Augmentée
                         </div>
                     </div>
+                    <div>
+                        <Title>2021-2022</Title>
+                        <div className="mt-2 opacity-70 text-sm leading-6 tracking-wider">
+                            Mastère Spécialisé Interactive Digital Experiences Designer
+                        </div>
+                    </div>
                 </GridContainer>
             </div>
         </div>
