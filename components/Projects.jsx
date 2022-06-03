@@ -197,7 +197,7 @@ export default function Projects() {
             <div className="mt-14">
                 <GridContainer width={320} noPadding>
                     {projects.map((project, index) => (
-                        <a href={project.url} key={index}>
+                        <a href={project.url} target="_blank" key={index}>
                         <ProjectCard>
                             <img src= {project.image} alt={project.title} style={{objectFit: 'cover', width: '100%', height: 200, zIndex: 0}} />
                             <ProjectTitle>{project.title}</ProjectTitle>
