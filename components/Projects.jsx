@@ -16,13 +16,13 @@ import {IoLogoYoutube} from "react-icons/io5";
 const projects = [
     {
         title: translate('Yoyo\'s Little Tales'),
-        description: 'Yoyo’s Little Tale est un jeu d’action/aventure dans lequel vous incarnez une enfant championne de yoyo s’étant retrouvée dans une étrange forêt remplie de créatures étranges. En cherchant la sortie, vous deviendrez ami·e avec certaines de ces créatures tandis que d’autres se mettront en travers de votre route. Vous devrez les affronter en les entourant de votre fil de yoyo pour les faire chuter au sol et réussir à sortir pour rejoindre votre sœur qui ne sait pas où vous êtes passée.',
+        description: 'Yoyo’s Little Tale est un jeu d’action/aventure dans lequel vous incarnez une enfant championne de yoyo s’étant retrouvée dans une étrange forêt remplie de créatures étranges. Vous devrez les affronter en les entourant de votre fil de yoyo pour les faire chuter au sol et réussir à sortir.',
         image: './Yoyo.png',
         tags: ['C#', 'Unity 3D', 'Project Management'],
         links: [
             {
                 name: 'youtube',
-                url: 'https://glorgs.itch.io/bridge-colossus'
+                url: 'https://youtu.be/GuLfZFgbYOk'
             }
         ],
         type: translate(['school','École']),
@@ -96,7 +96,7 @@ const projects = [
                 url: ''
             }
         ],
-        type: 'pro'
+        type: 'perso'
     },
     {
         title: 'Visual Effect on Unity',
