@@ -25,6 +25,12 @@ export default function Introduction() {
                         ])
                     }
                 </div>
+
+                <div className="mt-8">
+                    <button onClick={() => window.open('/cv_jonathan_baudillon.pdf')} className="bg-gradient-to-r from-blue-900 to-blue-400 px-14 py-3 rounded-full hover:scale-105 active:scale-90 transition transform duration-150">
+                        <span className="text-xl font-bold tracking-wider">{translate('Download my Resume|Télécharger mon CV')}</span>
+                    </button>
+                </div>
             </div>
 
             {
