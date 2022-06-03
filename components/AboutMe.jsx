@@ -35,19 +35,19 @@ export default function AboutMe() {
                     <div>
                         <Title>2015-2017</Title>
                         <div className="mt-2 opacity-70 text-sm leading-6 tracking-wider">
-                            Ecole Préparatoire (Peip)
+                            Ecole Préparatoire (Polytech)
                         </div>
                     </div>
                     <div>
                         <Title>2017-2020</Title>
                         <div className="mt-2 opacity-70 text-sm leading-6 tracking-wider">
-                            Diplôme d’Ingénieur en Informatique spécialisé en Réalité Virtuelle et Augmentée
+                            Diplôme d’Ingénieur en Informatique spécialisé en Réalité Virtuelle et Augmentée (Polytech)
                         </div>
                     </div>
                     <div>
                         <Title>2021-2022</Title>
                         <div className="mt-2 opacity-70 text-sm leading-6 tracking-wider">
-                            Mastère Spécialisé Interactive Digital Experiences Designer
+                            Mastère Spécialisé Interactive Digital Experiences Designer (Gobelin / CNAM ENJMIN)
                         </div>
                     </div>
                 </GridContainer>

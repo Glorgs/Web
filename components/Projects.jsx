@@ -15,6 +15,19 @@ import {IoLogoYoutube} from "react-icons/io5";
 
 const projects = [
     {
+        title: translate('Yoyo\'s Little Tales'),
+        description: 'Yoyo’s Little Tale est un jeu d’action/aventure dans lequel vous incarnez une enfant championne de yoyo s’étant retrouvée dans une étrange forêt remplie de créatures étranges. En cherchant la sortie, vous deviendrez ami·e avec certaines de ces créatures tandis que d’autres se mettront en travers de votre route. Vous devrez les affronter en les entourant de votre fil de yoyo pour les faire chuter au sol et réussir à sortir pour rejoindre votre sœur qui ne sait pas où vous êtes passée.',
+        image: './Yoyo.png',
+        tags: ['C#', 'Unity 3D', 'Project Management'],
+        links: [
+            {
+                name: 'youtube',
+                url: 'https://glorgs.itch.io/bridge-colossus'
+            }
+        ],
+        type: translate(['school','École']),
+    },
+    {
         title: translate('Unity 2D : Bridge Colossus'),
         description: 'Bridge Colossus est un jeu narratif avec des choix. Choisissez vos alliés pour décider du sort de la ville basse. Il a été réalisé pour une game jam de 3 jours à Gobelins.',
         image: './Bridge.png',
