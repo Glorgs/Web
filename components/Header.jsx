@@ -3,6 +3,7 @@ import { FiAtSign } from 'react-icons/fi';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import {translate} from "../assets/js/utils.js";
 import {useEffect, useState} from "react";
+import {FaItchIo} from "react-icons/fa";
 
 const HeaderIcon = ({ Icon, url }) => (
     <Icon onClick={() => window.open(url)} size="2rem" className="cursor-pointer hover:text-yellow-400 transition" />
@@ -48,6 +49,7 @@ export default function Header() {
                 <HeaderIcon Icon={AiFillGithub} url="https://github.com/Glorgs" />
                 <HeaderIcon Icon={AiFillLinkedin} url="https://www.linkedin.com/in/jonathan-baudillon-1ba43a220/" />
                 <HeaderIcon Icon={FiAtSign} url="mailto:jonathanbaudillon@yahoo.fr" />
+                <HeaderIcon Icon={FaItchIo} url="https://glorgs.itch.io/" />
             </div>
         </div>
     )
