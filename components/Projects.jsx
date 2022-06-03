@@ -28,7 +28,7 @@ const projects = [
         type: translate(['school','École']),
     },
     {
-        title: translate('Unity 2D : Bridge Colossus'),
+        title: translate('Bridge Colossus'),
         description: 'Bridge Colossus est un jeu narratif avec des choix. Choisissez vos alliés pour décider du sort de la ville basse. Il a été réalisé pour une game jam de 3 jours à Gobelins.',
         image: './Bridge.png',
         tags: ['C#', 'Unity 2D', 'Inkle', 'Project Management'],
@@ -41,7 +41,7 @@ const projects = [
         type: translate(['school','École']),
     },
     {
-        title: 'Unity 3D : Neon Pipe',
+        title: 'Neon Pipe',
         description: 'Un run n gun à 360° pour 2 joueurs réalisé pendant une game jam de 2,5 jours aux Gobelins, inspiré par Jet Set Radio et Splatoon.',
         image: './NeonPipe.png',
         tags: ['C#', 'Unity 3D', 'Decal', 'Project Management'],
@@ -197,7 +197,8 @@ export default function Projects() {
                             <ProjectTitle>{project.title}</ProjectTitle>
 
                             <Hr />
-
+                            
+                            <a>
                             <div className="flex items-center mb-1" style={{paddingLeft: '1.5rem', paddingRight: '1.5rem'}}>
                                 <div className="rounded-full bg-gray-200 text-black font-bold tracking-wider uppercase px-2 py-1">{project.type}</div>
 
@@ -220,6 +221,7 @@ export default function Projects() {
                                     <div className="opacity-70 font-light" key={index}>{tag}</div>
                                 ))}
                             </div>
+                            </a>
                         </ProjectCard>
                     ))}
                 </GridContainer>
