@@ -25,6 +25,7 @@ const projects = [
                 url: 'https://youtu.be/GuLfZFgbYOk'
             }
         ],
+        url: 'https://youtu.be/GuLfZFgbYOk',
         type: translate(['school','École']),
     },
     {
@@ -38,6 +39,7 @@ const projects = [
                 url: 'https://glorgs.itch.io/bridge-colossus'
             }
         ],
+        url: 'https://glorgs.itch.io/bridge-colossus',
         type: translate(['school','École']),
     },
     {
@@ -51,6 +53,7 @@ const projects = [
                 url: 'https://glorgs.itch.io/neon-pipe'
             }
         ],
+        url: 'https://glorgs.itch.io/neon-pipe',
         type: translate(['school','École'])
     },
     {
@@ -67,6 +70,7 @@ const projects = [
                 url: 'https://www.pixelheart.eu/fr/accueil/'
             }
         ],
+        url: 'https://www.pixelheart.eu/fr/accueil/',
         type: 'pro'
     },
     {
@@ -83,6 +87,7 @@ const projects = [
                 url: 'https://www.pixelheart.eu/fr/accueil/'
             }
         ],
+        url: 'https://www.pixelheart.eu/fr/accueil/',
         type: 'pro'
     },
     {
@@ -192,7 +197,7 @@ export default function Projects() {
             <div className="mt-14">
                 <GridContainer width={320} noPadding>
                     {projects.map((project, index) => (
-                        <a href={project.links[0]} key={index}>
+                        <a href={project.url} key={index}>
                         <ProjectCard>
                             <img src= {project.image} alt={project.title} style={{objectFit: 'cover', width: '100%', height: 200, zIndex: 0}} />
                             <ProjectTitle>{project.title}</ProjectTitle>
